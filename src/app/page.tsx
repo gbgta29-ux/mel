@@ -274,7 +274,7 @@ export default function Home() {
       case 'awaiting_after_gostar_response':
         await delay(3000);
         await showLoadingIndicator(3000);
-        addMessage({ type: 'image', url: 'https://imperiumfragrance.shop/wp-content/uploads/2025/06/Design-sem-nome-14.jpg' }, 'bot');
+        addMessage({ type: 'image', url: 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.7395094145827678.jpg' }, 'bot');
         await showLoadingIndicator(3000);
         addMessage({ type: 'text', text: "O que você achou bb??" }, 'bot');
         setFlowStep('awaiting_after_picante_response');
@@ -306,9 +306,9 @@ export default function Home() {
       case 'awaiting_after_audio_12_response':
         await delay(3000);
         await showLoadingIndicator(3000);
-        addMessage({ type: 'image', url: 'https://imperiumfragrance.shop/wp-content/uploads/2025/06/Design-sem-nome-15.jpg' }, 'bot');
+        addMessage({ type: 'image', url: 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.3475122955031089.jpg' }, 'bot');
         await showLoadingIndicator(2000);
-        addMessage({ type: 'video', url: 'https://imperiumfragrance.shop/wp-content/uploads/2025/06/JoinUs-@RisqueMega-163.mp4' }, 'bot');
+        addMessage({ type: 'video', url: 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.8526066839166425.mp4' }, 'bot');
         await showLoadingIndicator(3000, "Gravando áudio...");
         await playAudioSequence(10, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.1357915488789918.mp3');
         addMessage({ type: 'text', text: "eae bb bora chamadinha então ? 🔥" }, 'bot');
