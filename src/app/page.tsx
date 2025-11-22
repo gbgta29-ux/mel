@@ -134,7 +134,7 @@ export default function Home() {
       await playAudioSequence(1, 'https://gvdtvgefzbxunjrtzrdw.supabase.co/storage/v1/object/public/media/5h13k6kmiq_1761236369399.mp3');
       
       await showLoadingIndicator(2000, "Gravando áudio...");
-      await playAudioSequence(2, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/2.mp3');
+      await playAudioSequence(2, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.537911515787648.mp3');
       
       await delay(3000);
       
@@ -146,14 +146,14 @@ export default function Home() {
       addMessage({ type: 'text', text: "Essa foto eu tirei hoje mais cedo ❤🔥" }, 'bot');
       
       await showLoadingIndicator(2000, "Gravando áudio...");
-      await playAudioSequence(3, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/3.mp3');
+      await playAudioSequence(3, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.6396360429392725.mp3');
 
       await delay(2000);
       const locationText = currentCity === 'do Brasil' ? "no Brasil" : `em ${currentCity}`;
       addMessage({ type: 'text', text: `E estou morando ${locationText}` }, 'bot');
       
       await showLoadingIndicator(2000, "Gravando áudio...");
-      await playAudioSequence(4, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/4.mp3');
+      await playAudioSequence(4, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.9460769676416805.mp3');
       
       await delay(2000);
       addMessage({ type: 'text', text: "Qual seu nome, bb? 💗" }, 'bot');
@@ -216,12 +216,12 @@ export default function Home() {
         setFlowStep('upsell_payment_confirmed');
       } else {
         await showLoadingIndicator(2000, "Gravando áudio...");
-        await playAudioSequence(20, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/ElevenLabs_2025-07-25T23_51_20_Keren-Young-Brazilian-Female_pvc_sp110_s30_sb30_v3.mp3');
+        await playAudioSequence(15, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.2376692087095159.mp3');
         addMessage({ type: 'text', text: "Amor, acabei de liberar meu número pessoal pra você... Quer pagar só mais R$ 20,00 pra gente conversar por lá? 😏" }, 'bot');
         setFlowStep('payment_confirmed_awaiting_upsell_choice');
       }
     } else {
-      await playAudioSequence(19, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/ElevenLabs_2025-07-26T21_25_01_Keren-Young-Brazilian-Female_pvc_sp110_s30_sb30_v3-1.mp3');
+      await playAudioSequence(14, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.4763866979207385.mp3');
     }
     setIsCheckingPayment(false);
   };
@@ -264,7 +264,7 @@ export default function Home() {
       case 'awaiting_amor_permission':
         await delay(3000);
         await showLoadingIndicator(3000, "Gravando áudio...");
-        await playAudioSequence(5, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/5.mp3');
+        await playAudioSequence(5, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.34154264969693326.mp3');
         await showLoadingIndicator(3000);
         addMessage({ type: 'text', text: "Acho que vai gostar rsrs , posso mandar ?" }, 'bot');
         setFlowStep('awaiting_after_gostar_response');
@@ -284,16 +284,16 @@ export default function Home() {
       case 'awaiting_after_picante_response':
         await delay(3000);
         await showLoadingIndicator(3000, "Gravando áudio...");
-        await playAudioSequence(6, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/6.mp3');
-        await playAudioSequence(7, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/7.mp3');
+        await playAudioSequence(6, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.45556387496720474.mp3');
+        await playAudioSequence(7, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.26808174043256217.mp3');
         
         await delay(3000);
         await showLoadingIndicator(3000, "Gravando áudio...");
-        await playAudioSequence(9, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/9.mp3');
+        await playAudioSequence(8, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.9536455606764057.mp3');
 
         await delay(3000);
         await showLoadingIndicator(3000, "Gravando áudio...");
-        await playAudioSequence(10, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/10.mp3');
+        await playAudioSequence(9, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.06804547391532967.mp3');
 
         await delay(2000);
         addMessage({ type: 'text', text: "quer ver minha bucetinha amorzinho ??" }, 'bot');
@@ -310,7 +310,7 @@ export default function Home() {
         await showLoadingIndicator(2000);
         addMessage({ type: 'video', url: 'https://imperiumfragrance.shop/wp-content/uploads/2025/06/JoinUs-@RisqueMega-163.mp4' }, 'bot');
         await showLoadingIndicator(3000, "Gravando áudio...");
-        await playAudioSequence(13, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/ElevenLabs_2025-07-29T02_14_20_Keren-Young-Brazilian-Female_pvc_sp110_s30_sb30_v3.mp3');
+        await playAudioSequence(10, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.1357915488789918.mp3');
         addMessage({ type: 'text', text: "eae bb bora chamadinha então ? 🔥" }, 'bot');
         setFlowStep('awaiting_after_audio_14_response');
         setShowInput(true);
@@ -319,9 +319,9 @@ export default function Home() {
       case 'awaiting_after_audio_14_response':
         await delay(3000);
         await showLoadingIndicator(3000, "Gravando áudio...");
-        await playAudioSequence(15, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/ElevenLabs_2025-07-29T02_35_12_Keren-Young-Brazilian-Female_pvc_sp110_s30_sb30_v3.mp3');
-        await playAudioSequence(16, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/ElevenLabs_2025-07-29T02_40_26_Keren-Young-Brazilian-Female_pvc_sp110_s30_sb30_v3.mp3');
-        await playAudioSequence(17, 'https://imperiumfragrance.shop/wp-content/uploads/2025/07/ElevenLabs_2025-07-25T22_43_08_Keren-Young-Brazilian-Female_pvc_sp110_s30_sb30_v3.mp3');
+        await playAudioSequence(11, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.9888540051206104.mp3');
+        await playAudioSequence(12, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.8013873223987146.mp3');
+        await playAudioSequence(13, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.6807173394495754.mp3');
         await handleCreatePix(1499);
         break;
       
