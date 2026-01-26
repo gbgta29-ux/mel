@@ -320,9 +320,9 @@ export default function Home() {
         await delay(3000);
         await showLoadingIndicator(3000, "Gravando áudio...");
         await playAudioSequence(11, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.9888540051206104.mp3');
-        await playAudioSequence(12, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.8013873223987146.mp3');
+        await playAudioSequence(12, 'https://gvdtvgefzbxunjrtzrdw.supabase.co/storage/v1/object/public/media/w9p31ofa5t_1769445240969.mp3');
         await playAudioSequence(13, 'https://kdloteojnkcjblhoirea.supabase.co/storage/v1/object/public/public-files/0.6807173394495754.mp3');
-        await handleCreatePix(1499);
+        await handleCreatePix(999);
         break;
       
       case 'chat_mode':
@@ -380,7 +380,7 @@ export default function Home() {
               <Button
                   onClick={() => {
                     if (flowStep === 'awaiting_pix_payment' && pixData) {
-                      handleCheckPayment(pixData.transactionId, 1499, false);
+                      handleCheckPayment(pixData.transactionId, 999, false);
                     } else if (flowStep === 'awaiting_upsell_pix_payment' && upsellPixData) {
                        handleCheckPayment(upsellPixData.transactionId, 2000, true);
                     }
@@ -437,3 +437,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
